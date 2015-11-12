@@ -1,0 +1,342 @@
+/*
+  ========================================
+  Fonts
+  ========================================
+*/
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('fonts/opensans-bolditalic-webfont.eot');
+    src: url('fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bolditalic-webfont.woff') format('woff'),
+         url('fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('fonts/opensans-italic-webfont.eot');
+    src: url('fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('fonts/opensans-italic-webfont.woff') format('woff'),
+         url('fonts/opensans-italic-webfont.ttf') format('truetype'),
+         url('fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+  ========================================
+  Global
+  ========================================
+*/
+
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-family: 'open_sansregular', Arial, sans-serif;
+   font-size: 16px;
+}
+
+.wrapper {
+   clear: both;
+   margin: 0 auto;
+   width: 95%;
+   padding: 0 2.5%;
+   max-width: 840px;
+   text-align: center;
+}
+
+p {
+    line-height: 1.25;
+    margin-bottom: 1rem;
+}
+a {
+  color: #feaa3a;
+  text-decoration: none;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+header {
+   background: #969696 url('images/birds.jpg') no-repeat center center;
+   margin: 0 auto; 
+   padding: 20px 0px 0px 0px;
+   display: block;
+   text-align: center;
+   }
+
+img {
+  margin: 0 auto; 
+  display: block;
+  padding-top: 0px;
+  width: 90px;
+}
+
+.headshot {
+  margin: 0 auto;
+  width: 90px;
+ }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  font-family: 'open_sansbold', Arial, sans-serif;
+  font-size: 3.6em;
+  border-bottom: 1px solid #feaa3a;
+  padding: 30px 0px 15px 0px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  letter-spacing: -0.07em;
+}
+
+h2 {
+  font-family: 'open_sansbold', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.8em;  
+  margin: 0 auto;
+  padding: 20px 0px 10px 0px;
+ }
+
+/* title - Web developer - under the name in the header*/
+
+.title {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  text-transform: none;
+  color: white;
+}
+
+/* hello! paragraph */
+
+.hello {
+  background: rgba(0, 0, 0, .5);
+  text-align: center;
+  color: white;
+  line-height: 1.25;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+
+/* hello! */
+
+.orange-hello {
+  text-transform: none;
+  color: #feaa3a;
+}
+
+/* horizontal lines */
+
+.line {
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+ }
+
+.date {
+  font-family: 'open_sansitalic';
+  font-size: 0.9em;
+  margin-top: 0rem;
+}
+
+.orange-company {
+  color: #feaa3a;
+  font-weight: bold;
+}
+
+
+.job-descrp {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+   }
+
+.education {
+  text-align: left;
+}
+
+/* Skills list area */
+
+.clouds {
+  background: 
+   linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)),
+   url('images/clouds.jpg') fixed no-repeat center center,
+    #333;
+  }
+
+/* white line under skills */
+
+.line-white {
+  border-bottom: 1px solid white;
+ }
+
+li {
+  display: inline-block;
+  margin: 40px 10px 40px 10px;
+  border: 2px solid #feaa3a;
+  width: 100px;
+  height:100px;
+  border-radius: 50px;
+  font-family: Verdana;
+  text-align: center;
+  color: white;
+  line-height: 100px;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+  background: black;
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons {
+  color: #feaa3a;
+  font-size: 35px;
+  letter-spacing: 0.05em;
+}
+
+/* black backround */
+
+.black {
+    background: black;
+  }
+
+h5 {
+  text-transform: uppercase;
+  font-size: 9px;
+  padding: 20px 0px 20px 0px;
+
+}
+
+/* Breakpoints */
+
+@media all and (min-width: 600px) {
+
+.headshot {
+  float: left;
+  width: 25%;
+  margin: 15px 30px 0px 10px;
+ }
+
+.hello-float {
+  text-align: left;
+}
+
+h2 {
+  text-align: left;
+   }
+
+header h2 {
+  text-transform: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hello {
+  background: rgba(0, 0, 0, .5);
+  text-align: left;
+  color: white;
+  line-height: 1.25;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+
+.orange-hello {
+  text-transform: none;
+  text-transform: none;
+  color: #feaa3a;
+  text-align: left;
+}
+
+.company {
+  float: left;
+  width: 24%;
+  margin: 0 25px 0 0;
+  text-align: left;
+ }
+
+.job-title {
+  margin: 0 30px 0 0;
+ }
+
+.job-descrp {
+  float: right;
+  width: 72%;
+ }
+
+ .education {
+  text-align: left;
+}
+
+.line-white {
+  text-align: center;
+ }
+
+.contact {
+  float: left;
+  text-align: left;
+ }
+
+.icons {
+  color: #feaa3a;
+  font-size: 35px;
+  letter-spacing: 0.05em;
+  float: right;
+}
+
+h5 {
+    margin: 0 auto;
+    clear: both;
+}
+
+}
