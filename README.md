@@ -9,24 +9,26 @@ One-page website that serve as an online resume for client Laura Ipsum.
 
 > Goals:
           >> Responsively designed using a mobile-first approach
+
           >> Optimized for 2 screen sizes: mobile and min-width: 600px
+
           >> Incorporated a “faux parallax” scrolling effect using background-position: fixed
 
 
 
  _Requirements:_
 
-_Use the background property where appropriate
+_Use the background property where appropriate_
 
-Use the float property effectively
+_Use the float property effectively_
 
-Demonstrate effective use of box model properties
+_Demonstrate effective use of box model properties_
 
-Demonstrate effective use of CSS properties for altering the visual display of text (e.g. font-family, font-style, text-transform, etc.)
+_Demonstrate effective use of CSS properties for altering the visual display of text (e.g. font-family, font-style, text-transform, etc.)_
 
-Incorporate custom fonts using @font-face
+_Incorporate custom fonts using @font-face_
 
-Use an icon font
+_Use an icon font_
 
-Use CSS3 properties where appropriate (e.g. opacity or border-radius)_
+_Use CSS3 properties where appropriate (e.g. opacity or border-radius)_
 - - - -
