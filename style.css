@@ -1,11 +1,15 @@
-/*
-  ========================================
-  Fonts
-  ========================================
-*/
+/* Extra Resetting */
+/*-----------------------------------------*/
+
+* { box-sizing: border-box; }
+
+
+/* Fonts */
+/*-----------------------------------------*/
+
 
 @font-face {
-    font-family: 'open_sansregular';
+    font-family: 'Open Sans';
     src: url('fonts/opensans-regular-webfont.eot');
     src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans-regular-webfont.woff2') format('woff2'),
@@ -18,33 +22,33 @@
 }
 
 @font-face {
-    font-family: 'open_sansbold';
+    font-family: 'Open Sans';
     src: url('fonts/opensans-bold-webfont.eot');
     src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans-bold-webfont.woff2') format('woff2'),
          url('fonts/opensans-bold-webfont.woff') format('woff'),
          url('fonts/opensans-bold-webfont.ttf') format('truetype'),
          url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'open_sansbold_italic';
+    font-family: 'Open Sans';
     src: url('fonts/opensans-bolditalic-webfont.eot');
     src: url('fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
          url('fonts/opensans-bolditalic-webfont.woff') format('woff'),
          url('fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
          url('fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'open_sansitalic';
+    font-family: 'Open Sans';
     src: url('fonts/opensans-italic-webfont.eot');
     src: url('fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans-italic-webfont.woff2') format('woff2'),
@@ -52,9 +56,10 @@
          url('fonts/opensans-italic-webfont.ttf') format('truetype'),
          url('fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
+/* Mobile first CSS */
 
 /*
   ========================================
@@ -62,12 +67,9 @@
   ========================================
 */
 
-* {
-   box-sizing: border-box;
-}
 
 html {
-   font-family: 'open_sansregular', Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif;
    font-size: 16px;
 }
 
@@ -106,8 +108,9 @@ header {
 img {
   margin: 0 auto; 
   display: block;
-  padding-top: 0px;
-  width: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100px;
 }
 
 .headshot {
@@ -122,7 +125,8 @@ img {
 }
 
 h1 {
-  font-family: 'open_sansbold', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   font-size: 3.6em;
   border-bottom: 1px solid #feaa3a;
   padding: 30px 0px 15px 0px;
@@ -134,7 +138,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'open_sansbold', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 1.8em;  
   margin: 0 auto;
@@ -144,9 +149,12 @@ h2 {
 /* title - Web developer - under the name in the header*/
 
 .title {
-  font-family: 'open_sansregular', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: none;
   color: white;
+  font-weight: normal;
+  padding-top:0;
+  padding-bottom: 40px;
 }
 
 /* hello! paragraph */
@@ -176,7 +184,8 @@ h2 {
  }
 
 .date {
-  font-family: 'open_sansitalic';
+  font-family: 'Open Sans';
+  font-style: italic;
   font-size: 0.9em;
   margin-top: 0rem;
 }
@@ -219,7 +228,7 @@ li {
   width: 100px;
   height:100px;
   border-radius: 50px;
-  font-family: Verdana;
+  font-family: 'Open Sans';
   text-align: center;
   color: white;
   line-height: 100px;
@@ -339,4 +348,7 @@ h5 {
     clear: both;
 }
 
+.copyright{
+  text-align: left;
+}
 }
