@@ -6,7 +6,7 @@ One-page website that serve as an online resume for client Laura Ipsum.
 
 **This project - my first html/css web development project**
 
-Deployed version of the project [(as a GitHub page)](http://redacademy.github.io/p1-solution/) 
+Deployed version of the project [(as a GitHub page)](http://katrinagd.github.io/p1-resume/) 
 
 **Goals:**
 * Responsively designed using a mobile-first approach
